@@ -1,0 +1,53 @@
+{
+  "workbench.colorTheme": "Wildberries",
+  "editor.fontFamily": "'MesloLGS NF'",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": false,
+  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+  "editor.glyphMargin": false, // Hide depurator
+  "workbench.activityBar.visible": false, // Hide tool bar
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.formatting.provider": "black",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "nebulaOni.update.restoreConfiguration": {
+    "themeSettings": {
+      "background": "Grey",
+      "main": "Bumblebee",
+      "highlight": "Ultra Violet",
+      "focusBorder": "ON",
+      "fontStyle": "Italic",
+      "comments": "Dark Violet",
+      "favorite": "OFF"
+    },
+    "favoriteSettings": {
+      "background": "Glacial Blue",
+      "main": "Sakura",
+      "highlight": "Ultra Violet",
+      "focusBorder": "ON",
+      "fontStyle": "Italic",
+      "comments": "Dark Magenta",
+      "favorite": "Nebula Oni (Pegasus)"
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
+}
