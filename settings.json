@@ -19,6 +19,11 @@
   "explorer.fileNesting.enabled": true,
   "terminal.integrated.fontFamily": "'MesloLGS NF'",
 
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+
   /* Linter config */
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -36,7 +41,6 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-  "workbench.activityBar.location": "hidden",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -85,8 +89,10 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "symbols.hidesExplorerArrows": false,
-  "workbench.statusBar.visible": false,
-  "workbench.editor.editorActionsLocation": "hidden"
+  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "workbench.activityBar.location": "hidden",
+  
 }
